@@ -1,5 +1,5 @@
-from binary_matrix_utils import  random_invertible_binary_matrix
-from kutin_synthesis_plugin import KutinSynthesisPlugin
+from .binary_matrix_utils import  random_invertible_binary_matrix
+from .kutin_synthesis_plugin import KutinSynthesisPlugin
 
 import stevedore
 

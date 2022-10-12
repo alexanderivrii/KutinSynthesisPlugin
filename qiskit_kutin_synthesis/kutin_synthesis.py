@@ -1,6 +1,6 @@
 import numpy as np
 from copy import deepcopy
-from binary_matrix_utils import calc_inverse_matrix
+from .binary_matrix_utils import calc_inverse_matrix
 
 
 """
