@@ -26,6 +26,6 @@ class KutinSynthesisPlugin(HighLevelSynthesisPlugin):
 
     def run(self, high_level_object, **options):
         """Run synthesis for the given LinearFunction."""
-
-        qc = synthesize_cx_circuit_lnn_depth(high_level_object)
+        print("Running KutinSynthesisPlugin")
+        qc = synthesize_cx_circuit_lnn_depth(high_level_object.linear)
         return qc
