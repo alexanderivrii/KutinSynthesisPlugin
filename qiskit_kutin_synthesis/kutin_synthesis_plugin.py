@@ -2,8 +2,8 @@ from qiskit.circuit import QuantumCircuit
 from qiskit.circuit.library import LinearFunction
 from qiskit.transpiler.passes.synthesis.high_level_synthesis import HighLevelSynthesisPlugin
 
-from binary_matrix_utils import calc_inverse_matrix
-from kutin_synthesis import optimize_cx_circ_from_cx_matrix_NN_5_n_for_mix
+from .binary_matrix_utils import calc_inverse_matrix
+from .kutin_synthesis import optimize_cx_circ_from_cx_matrix_NN_5_n_for_mix
 
 
 """Kutin's synthesis, implemented as a Qiskit Terra plugin."""
