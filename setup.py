@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="kutin-synthesis-plugin-for-qiskit",
-    version="0.1.0",
+    version="0.1.1",
     description="Synthesis for linear functions as a qiskit-terra plugin",
     license="MIT",
     author="Alexander Ivrii",
